@@ -9,6 +9,7 @@ This project was generated using [Nx](https://nx.dev).
 - Built with Nx using my custom Ionic React plugin
   - [Nx Cloud](https://nx.app/) has been enabled for distributed caching
 - Files are automatically formatted with a [Prettier](https://prettier.io) pre-commit hook
+- PR's are built and tested with GitHub Actions
 
 <p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
 
