@@ -5,9 +5,10 @@ This project was generated using [Nx](https://nx.dev).
 ## Highlights
 
 - [GitHub Projects](https://github.com/devinshoemaker/sf-muni/projects/1) was used for issue tracking
-  - Looking at the issues created and the pull requests associated with them will give you an idea of how I worked through my tasks.
+  - Looking at the issues created and the pull requests associated with them will give you an idea of how I worked through my tasks
 - Built with Nx using my custom Ionic React plugin
   - [Nx Cloud](https://nx.app/) has been enabled for distributed caching
+- Files are automatically formatted with a [Prettier](https://prettier.io) pre-commit hook
 
 <p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
 
