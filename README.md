@@ -6,7 +6,7 @@ This project was generated using [Nx](https://nx.dev).
 
 - [GitHub Projects](https://github.com/devinshoemaker/sf-bus/projects/1) was used for issue tracking
   - Looking at the issues created and the pull requests associated with them will give you an idea of how I worked through my tasks
-- Built with Nx using my custom Ionic React plugin
+- Built with Nx using my custom [Ionic React plugin](https://nxtend.dev/docs/ionic-react/getting-started)
   - [Nx Cloud](https://nx.app/) has been enabled for distributed caching
 - Files are automatically formatted with a [Prettier](https://prettier.io) pre-commit hook
 - PR's are built and tested with GitHub Actions
