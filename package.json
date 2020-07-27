@@ -31,13 +31,20 @@
     "@ionic/react": "5.2.3",
     "@ionic/react-router": "5.2.3",
     "@react-google-maps/api": "^1.9.9",
+    "@types/googlemaps": "^3.39.11",
+    "axios": "^0.19.2",
     "document-register-element": "1.13.1",
     "ionicons": "5.0.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-query": "^2.5.6",
     "react-router-dom": "5.2.0"
   },
   "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "7.9.6",
+    "@babel/preset-react": "7.9.4",
+    "@babel/preset-typescript": "7.9.0",
     "@capacitor/android": "^2.2.1",
     "@capacitor/cli": "^2.2.1",
     "@capacitor/electron": "^2.2.1",
@@ -62,6 +69,7 @@
     "@types/react-router-dom": "5.1.5",
     "@typescript-eslint/eslint-plugin": "2.19.2",
     "@typescript-eslint/parser": "2.19.2",
+    "babel-jest": "25.1.0",
     "cypress": "^4.1.0",
     "dotenv": "6.2.0",
     "eslint": "6.8.0",
@@ -78,12 +86,7 @@
     "ts-jest": "25.2.1",
     "ts-node": "~7.0.0",
     "tslint": "~6.0.0",
-    "typescript": "~3.9.3",
-    "@babel/core": "7.9.6",
-    "@babel/preset-env": "7.9.6",
-    "@babel/preset-typescript": "7.9.0",
-    "@babel/preset-react": "7.9.4",
-    "babel-jest": "25.1.0"
+    "typescript": "~3.9.3"
   },
   "husky": {
     "hooks": {
