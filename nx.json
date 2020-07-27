@@ -24,5 +24,16 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "sf-bus": {
+      "tags": []
+    },
+    "sf-bus-e2e": {
+      "tags": [],
+      "implicitDependencies": ["sf-bus"]
+    },
+    "sf-bus-cap": {
+      "tags": []
+    }
+  }
 }
