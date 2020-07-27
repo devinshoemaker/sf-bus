@@ -4,7 +4,7 @@ This project was generated using [Nx](https://nx.dev).
 
 ## Highlights
 
-- [GitHub Projects](https://github.com/devinshoemaker/sf-muni/projects/1) was used for issue tracking
+- [GitHub Projects](https://github.com/devinshoemaker/sf-bus/projects/1) was used for issue tracking
   - Looking at the issues created and the pull requests associated with them will give you an idea of how I worked through my tasks
 - Built with Nx using my custom Ionic React plugin
   - [Nx Cloud](https://nx.app/) has been enabled for distributed caching
@@ -52,7 +52,7 @@ Run `nx g @nrwl/react:lib my-lib` to generate a library.
 
 > You can also use any of the plugins above to generate libraries as well.
 
-Libraries are sharable across libraries and applications. They can be imported from `@sf-muni/mylib`.
+Libraries are sharable across libraries and applications. They can be imported from `@sf-bus/mylib`.
 
 ## Development server
 
