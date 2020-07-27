@@ -16,6 +16,7 @@ jobs:
 
     env:
       NX_CLOUD_AUTH_TOKEN: ${{ secrets.NX_CLOUD_AUTH_TOKEN }}
+      NX_GOOGLE_MAPS_API_KEY: ${{ secrets.NX_GOOGLE_MAPS_API_KEY }}
 
     steps:
       - uses: actions/checkout@v2
