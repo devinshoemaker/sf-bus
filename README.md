@@ -8,8 +8,10 @@ This project was generated using [Nx](https://nx.dev).
   - Looking at the issues created and the pull requests associated with them will give you an idea of how I worked through my tasks
 - Built with Nx using my custom [Ionic React plugin](https://nxtend.dev/docs/ionic-react/getting-started)
   - [Nx Cloud](https://nx.app/) has been enabled for distributed caching
+  - Libraries are used to enforce separation of concern
 - Files are automatically formatted with a [Prettier](https://prettier.io) pre-commit hook
 - PR's are built and tested with GitHub Actions
+- [`@react-google-maps/api`](https://react-google-maps-api-docs.netlify.app/) is used to interface with the Google Maps JavaScript library
 
 <p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
 

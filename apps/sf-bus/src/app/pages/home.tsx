@@ -5,12 +5,8 @@ import {
   IonTitle,
   IonToolbar,
 } from '@ionic/react';
-
 import React from 'react';
-
-import ExploreContainer from '../components/explore-container';
-
-import './home.css';
+import { SfBusMap } from '@sf-bus/maps';
 
 export const Home = () => {
   return (
@@ -26,7 +22,7 @@ export const Home = () => {
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer />
+        <SfBusMap />
       </IonContent>
     </IonPage>
   );
