@@ -12,6 +12,8 @@ This project was generated using [Nx](https://nx.dev).
 - Files are automatically formatted with a [Prettier](https://prettier.io) pre-commit hook
 - PR's are built and tested with GitHub Actions
 - [`@react-google-maps/api`](https://react-google-maps-api-docs.netlify.app/) is used to interface with the Google Maps JavaScript library
+- [`Recoil`](https://recoiljs.org) is used for state management
+  - This offered a cleaner state management experience for the given requirements as opposed to React context at the expense of an added dependency
 
 <p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
 

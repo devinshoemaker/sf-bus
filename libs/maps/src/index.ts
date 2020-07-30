@@ -1,1 +1,1 @@
-export * from './components/sf-bus-map/sf-bus-map';
+export * from './pages/sf-bus-page/sf-bus-page';
