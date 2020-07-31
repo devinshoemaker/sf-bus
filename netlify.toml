@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/*"
+  to = "http://webservices.nextbus.com/service/:splat"
+  status = 200
