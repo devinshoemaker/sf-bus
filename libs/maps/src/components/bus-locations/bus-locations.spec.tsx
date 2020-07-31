@@ -1,6 +1,7 @@
 import { useBusLocations } from '@sf-bus/core-data';
 import { render } from '@testing-library/react';
 import React from 'react';
+import { RecoilRoot } from 'recoil';
 import BusLocations from './bus-locations';
 
 jest.mock('@sf-bus/core-data');
@@ -82,7 +83,11 @@ describe(' BusLocations', () => {
   });
 
   it('should render successfully', () => {
-    const { baseElement } = render(<BusLocations />);
+    const { baseElement } = render(
+      <RecoilRoot>
+        <BusLocations />
+      </RecoilRoot>
+    );
     expect(baseElement).toBeTruthy();
   });
 });
