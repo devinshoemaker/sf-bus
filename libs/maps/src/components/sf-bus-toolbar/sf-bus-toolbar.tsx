@@ -30,7 +30,7 @@ export const SfBusToolbar = () => {
         popoverEvent={popoverEvent}
         onDidDismiss={() => setShowPopover(false)}
       />
-      <IonTitle>Blank</IonTitle>
+      <IonTitle>The Bus Thing</IonTitle>
     </IonToolbar>
   );
 };
