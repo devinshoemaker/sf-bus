@@ -6,4 +6,9 @@ describe('sf-bus', () => {
       'not.exist'
     );
   });
+
+  it(`should redirect 404's to /`, () => {
+    cy.visit('/does/not/exist');
+    cy.url().should('equal', 'http://localhost:4200/');
+  });
 });

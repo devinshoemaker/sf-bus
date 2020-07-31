@@ -28,8 +28,8 @@ export const App = () => {
     <IonApp>
       <IonReactRouter>
         <IonRouterOutlet>
-          <Route path="/home" component={SfBusPage} exact={true} />
-          <Route exact path="/" render={() => <Redirect to="/home" />} />
+          <Route path="/" component={SfBusPage} exact={true} />
+          <Redirect to="/" />
         </IonRouterOutlet>
       </IonReactRouter>
     </IonApp>
