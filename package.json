@@ -23,7 +23,8 @@
     "update": "nx migrate latest",
     "workspace-schematic": "nx workspace-schematic",
     "dep-graph": "nx dep-graph",
-    "help": "nx help"
+    "help": "nx help",
+    "netlify": "nx build && cp _redirects dist/apps/sf-bus"
   },
   "private": true,
   "dependencies": {
